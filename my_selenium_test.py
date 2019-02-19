@@ -55,7 +55,7 @@ browser.get("https://selenium-python.readthedocs.io/getting-started.html")
 sleep(2)
 browser.close()
 
-# Note to self: Work on DRY code - make function where I can pass multi elements
+# Note to self: make function where I can pass multi elements
 
 def get_elem(enter_string):
    pass 
