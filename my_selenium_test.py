@@ -25,14 +25,13 @@ browser = webdriver.Firefox()
 # browser = webdriver.Firefox(executable_path ="") 
 print(browser.name) 
 
-# Grab site url & grab some tabs via text 
-
+# Grab url  
 def get_link(link):
    browser.get(link)
 
 get_link("https://www.python.org/")
 
-
+# grab some tabs via text
 def click_element_text(one,two,three):
 
    elem = browser.find_element_by_link_text(one)
